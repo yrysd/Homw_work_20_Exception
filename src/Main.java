@@ -17,8 +17,8 @@ public class Main {
                 int length = scanner.nextInt();
                 System.out.println("Enter WIDTH:");
                 int width = scanner.nextInt();
-                if (height < 0 || length < 0 || width < 0) {
-                    if (height < 20 && length < 20 && width < 20) {
+                if (height > 0 && length > 0 && width > 0) {
+                    if (height < 20 &&  length < 20 && width < 20) {
 
                     }else {
                         throw new RuntimeException("the given value cannot be greater than 20!");
